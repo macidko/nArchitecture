@@ -22,9 +22,9 @@ namespace Persistence.Contexts
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            //if (!optionsBuilder.IsConfigured)
-            //    base.OnConfiguring(
-            //        optionsBuilder.UseSqlServer(Configuration.GetConnectionString("SomeConnectionString")));
+            if (!optionsBuilder.IsConfigured)
+                base.OnConfiguring(
+                    optionsBuilder.UseSqlServer(Configuration.GetConnectionString("RentACarDb")));
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -35,7 +35,6 @@ namespace Persistence.Contexts
                 a.Property(p => p.Id).HasColumnName("Id");
                 a.Property(p => p.Name).HasColumnName("Name");
             });
-
 
             Brand[] brandEntitySeeds = { new(1, "BMW"), new(2, "Mercedes") };
             modelBuilder.Entity<Brand>().HasData(brandEntitySeeds);
