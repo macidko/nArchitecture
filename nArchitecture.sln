@@ -9,19 +9,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "corePackages", "corePackage
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "projects", "projects", "{76FCA468-66A6-479A-A1AB-C1F2229070C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Persistence", "src\corePackages\Core.Persistence\Core.Persistence.csproj", "{7B1B1EF6-3F31-4981-B4DB-4D886941D73D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Persistence", "src\corePackages\Core.Persistence\Core.Persistence.csproj", "{7B1B1EF6-3F31-4981-B4DB-4D886941D73D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "rentACar", "rentACar", "{F6BB29BA-167E-45C7-B10F-617C1C43A938}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "src\projects\rentACar\Application\Application.csproj", "{1D53F859-7DB4-4408-9A7F-074335842A93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "src\projects\rentACar\Application\Application.csproj", "{1D53F859-7DB4-4408-9A7F-074335842A93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "src\projects\rentACar\Domain\Domain.csproj", "{DA1FEC59-90C5-4663-90C3-B0EB08182EF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "src\projects\rentACar\Domain\Domain.csproj", "{DA1FEC59-90C5-4663-90C3-B0EB08182EF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infastructure", "src\projects\rentACar\Infastructure\Infastructure.csproj", "{4D3674BB-20FB-443D-A3C0-016BE08C294C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infastructure", "src\projects\rentACar\Infastructure\Infastructure.csproj", "{4D3674BB-20FB-443D-A3C0-016BE08C294C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "src\projects\rentACar\Persistence\Persistence.csproj", "{35DE5144-017D-48B0-8B29-F9E77373A603}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence", "src\projects\rentACar\Persistence\Persistence.csproj", "{35DE5144-017D-48B0-8B29-F9E77373A603}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "src\projects\rentACar\WebAPI\WebAPI.csproj", "{79DA43D5-9264-48B1-BE02-2C407EC4141B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "src\projects\rentACar\WebAPI\WebAPI.csproj", "{79DA43D5-9264-48B1-BE02-2C407EC4141B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{01E93A21-16F5-4F1F-8E6B-C944CD7B920D}"
+	ProjectSection(SolutionItems) = preProject
+		Notes.txt = Notes.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

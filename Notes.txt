@@ -2,13 +2,13 @@
 --Application : Business klasörüne benzer. Event.
 --Business: 
 --Features: Domainden beslenerek her bir veri tabaný nesnesi ayrý bir "feature" olarak ele alýnýr.
---Services: repo, dýþ servisler, diðer projelerdeki service implementasyonlarý burada yapýlýr
---ServiceRegistration:  Her katman için ayrý dependency injection yapýsý
---Infastructure: Baþka sistemlerin entegrasyonuyla ilgilenen alan. service adaptasyonlarý burada kullanýlýr. 
---Persistence: Kalýcý hale getirme. Veri tabaný implemantasyonlarý, migrationlar, repositoryler burada implemente edilir. 
+--Services: repo, dýþ servisler, diðer projelerdeki service implementasyonlarý burada yapýlýr.
+--ServiceRegistration:  Her katman için ayrý dependency injection yapýsý.
+--Infastructure: Baþka sistemlerin entegrasyonuyla ilgilenen alan. service adaptasyonlarý burada kullanýlýr.
+--Persistence: Kalýcý hale getirme. Veri tabaný implemantasyonlarý, migrationlar, repositoryler burada implemente edilir.
 --WebAPI: api'nin oluþturulduðu yer.
 --controller: 
-Aayrýca Domain, bir þirketin iþ sürecine denir. 
+Aayrýca Domain, bir þirketin iþ sürecine denir.
 *Domain bu uygulamanýn kalbi
 Guid : harf ve rakamlardan oluþan daha kompleks id'ler oluþturmak için kullanýlýr.
 -DDD
